@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']    = 'Downloads';
 $cs_lang['mod_list']    = 'Unsere Downloads in Kategorien.';

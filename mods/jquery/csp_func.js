@@ -1,7 +1,3 @@
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
-
-
 $(function(){
 
   $(".clip").live('click', function () { 

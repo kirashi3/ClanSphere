@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']  = 'Member';
 $cs_lang['modtext']  = 'Assign user to squad';

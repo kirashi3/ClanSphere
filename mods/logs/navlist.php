@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 if($account['access_clansphere'] >= 3 AND $account['access_logs'] >= 3) {
 

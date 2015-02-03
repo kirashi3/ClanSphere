@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net 
-// $Id$
 
 $cs_lang['mod_name']  = 'Templates';
 $cs_lang['modinfo']  = 'Manage of users templates.';

@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $axx_file['admin']      = 5;
 $axx_file['convert']    = 5;

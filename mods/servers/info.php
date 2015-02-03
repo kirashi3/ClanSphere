@@ -1,4 +1,5 @@
 <?php
+
 $cs_lang = cs_translate('servers');
 
 $mod_info['name']    = $cs_lang['mod_name'];

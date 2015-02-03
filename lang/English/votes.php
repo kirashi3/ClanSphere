@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']        = 'Votes';
 $cs_lang['modtext'] = 'Management and analysis of votes';

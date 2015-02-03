@@ -1,7 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
-
 
 function cs_days($d = 0,$m = 0,$y = 0) {
 

@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 function cs_cache_dirs($dir, $lang, $return_startup = 0) {
 

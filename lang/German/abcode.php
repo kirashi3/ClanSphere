@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']  = 'Abcode';
 $cs_lang['mod_text']  = 'Ersetzt Muster durch Bilder oder Text';

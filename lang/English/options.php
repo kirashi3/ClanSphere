@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name'] = 'Options';
 $cs_lang['head_roots'] = 'Base';

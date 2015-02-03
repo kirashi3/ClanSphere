@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name'] = 'Boardranks';
 $cs_lang['mod_text'] = 'Administrate and Create Boardranks';

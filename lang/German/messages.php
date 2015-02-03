@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']      = 'Nachrichten';
 $cs_lang['head_center_msg']  = 'Posteingang';

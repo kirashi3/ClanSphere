@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $axx_file['new']    = 1;
 $axx_file['manage']    = 3;

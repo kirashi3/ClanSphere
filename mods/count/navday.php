@@ -1,6 +1,4 @@
-<?php 
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
+<?php
 
 $tday = cs_datereal('d');
 $tmonth = cs_datereal('n');

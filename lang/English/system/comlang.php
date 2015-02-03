@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $com_lang['name']     = 'English';
 $com_lang['short']    = 'en';

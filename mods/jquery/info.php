@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $mod_info['name']       = 'JQuery';
 $mod_info['version']    = $cs_main['version_name'];

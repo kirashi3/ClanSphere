@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 function cs_ajax_mail($mail, $link = '', $service = 'mailto:')
 {

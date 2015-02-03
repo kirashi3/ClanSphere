@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 # Overwrite global settings by using the following array
 $cs_main = array(

@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name'] = 'Module';
 $cs_lang['info_text'] = 'Verwaltung aller Module von ClanSphere';

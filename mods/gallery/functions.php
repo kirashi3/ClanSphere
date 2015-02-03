@@ -1,7 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
-
 
 function multiarray_search ($array, $innerkey, $value) {
   foreach ($array AS $outerkey => $innerarray) {

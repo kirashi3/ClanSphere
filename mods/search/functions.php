@@ -1,6 +1,4 @@
 <?PHP
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 function cs_search($mod) {
   $cs_lang = cs_translate('search');

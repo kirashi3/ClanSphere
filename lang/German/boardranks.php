@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name'] = 'Forumr&auml;nge';
 $cs_lang['mod_text'] = 'Forumr&auml;nge verwalten und erstellen';

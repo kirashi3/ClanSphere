@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang = cs_translate('users');
 require_once('mods/captcha/functions.php');

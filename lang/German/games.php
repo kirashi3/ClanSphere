@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']  = 'Spiele';
 $cs_lang['mod_text']  = 'Das Spiele Modul';

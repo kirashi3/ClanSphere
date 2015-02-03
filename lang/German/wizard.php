@@ -1,4 +1,5 @@
 <?php
+
 $cs_lang['mod_name']  = 'Assistent';
 $cs_lang['mod_text']  = 'Hilft beim Einrichten und &uuml;berwachen der Portalfunktionen';
 $cs_lang['wizard']    = 'Assistent';

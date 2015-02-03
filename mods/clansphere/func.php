@@ -1,4 +1,5 @@
 <?php
+
 function get_size($dir) { 
   //echo 'DEBUG-Dir:' . $dir . '</br>';
   $handle = opendir($dir);

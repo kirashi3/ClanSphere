@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']  = 'Besucher';
 $cs_lang['mod_text']  = 'Statistiken zu den Seitenaufrufen';

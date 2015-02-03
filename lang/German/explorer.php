@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['explorer']  = 'Explorer';
 $cs_lang['mod_name'] = 'Explorer';

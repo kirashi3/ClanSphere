@@ -1,4 +1,5 @@
 <?php
+
 $cs_lang = cs_translate('wars');
 $users_id = $_REQUEST['id'];
 

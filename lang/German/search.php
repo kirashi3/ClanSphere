@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_text']    = 'Das Suche Modul';
 $cs_lang['body_list']   = 'Mehrere Suchbegriffe bitte per "," trennen.';

@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name'] = 'LinkUs';
 $cs_lang['mod_text'] = 'Bilder speichern die Andere verwenden k&ouml;nnen um zu diese Seite zu verlinken';

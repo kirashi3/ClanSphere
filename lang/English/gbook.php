@@ -1,6 +1,4 @@
 <?PHP
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']      = 'Guestbook';
 $cs_lang['mod_text']    = 'Manage and Create Guestbook entries';

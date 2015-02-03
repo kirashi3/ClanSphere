@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['pictures'] = 'Bilder';
 $cs_lang['mod_info'] = 'Bilderverwaltung aller Module';

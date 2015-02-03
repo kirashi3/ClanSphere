@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 //$cs_lang = cs_translate('gallery');
 echo '<SCRIPT LANGUAGE="JavaScript"><!-- if (window.print) { window.print(); setTimeout(\'self.close()\',5000); } //--></SCRIPT>';

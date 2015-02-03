@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 // General
 $cs_lang['mod_name']  = 'Squads';

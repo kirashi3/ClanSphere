@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net 
-// $Id$
 
 $data = array();
 $cs_lang = cs_translate('maps');

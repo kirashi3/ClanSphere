@@ -1,4 +1,5 @@
 <?php
+
 $cs_lang['mod_name']  = 'Logs';
 $cs_lang['mod_text']  = 'Actions and errors';
 

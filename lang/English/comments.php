@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']      = 'Comments';
 $cs_lang['mod_text']  = 'Adds a discussion function to modules';

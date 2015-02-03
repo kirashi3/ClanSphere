@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $data = array();
 $op_banners = cs_sql_option(__FILE__,'banners');

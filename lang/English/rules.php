@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']  = 'Rules';
 $cs_lang['mod_text']  = 'Manage and Create Rules';

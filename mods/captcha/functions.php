@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 global $available_captchas, $captcha_option;
 $captcha_option['options'] = cs_sql_option(__FILE__,'captcha');

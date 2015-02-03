@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 // info.php
 $cs_lang['mod_name']  = 'Artikel';

@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']  = 'Server';
 $cs_lang['mod_text']  = 'Dienste hinzuf&uuml;gen und erstellen';

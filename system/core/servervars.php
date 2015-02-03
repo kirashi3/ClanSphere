@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 # check for and remove magic quotes
 $mq_gpc = ini_get('magic_quotes_gpc');

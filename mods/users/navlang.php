@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $data = array('langs' => array());
 $data['form']['url'] = cs_url($cs_main['def_mod'], $cs_main['def_action'], $cs_main['def_parameters']);

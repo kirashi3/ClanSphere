@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 if(version_compare(phpversion(), '5.2.1', '>='))
   require_once 'mods/ajax/mail_func.php';

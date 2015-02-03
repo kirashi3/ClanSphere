@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['attachments'] = 'Dateianh&auml;nge';
 $cs_lang['filename'] = 'Dateiname';

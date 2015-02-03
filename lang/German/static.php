@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']  = 'Statische Seiten';
 $cs_lang['mod_text']  = 'Verwaltung eigener Unterseiten';

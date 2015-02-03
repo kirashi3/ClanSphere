@@ -1,4 +1,5 @@
 <?php
+
 global $captcha_option;
 define( 'AYAH_PUBLISHER_KEY', $captcha_option['options']['areyouahuman_publisher_key']);
 define( 'AYAH_SCORING_KEY', $captcha_option['options']['areyouahuman_scoring_key']);

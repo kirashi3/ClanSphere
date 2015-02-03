@@ -1,6 +1,4 @@
-<?php  
-// ClanSphere 2010 - www.clansphere.net  
-// $Id$
+<?php
 
 $cs_lang['mod_name']  = 'Wiederholungen';
 $cs_lang['modtext']  = 'Gespeicherte Aufzeichnungen von Begegnungen';

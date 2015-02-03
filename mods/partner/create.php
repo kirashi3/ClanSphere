@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang = cs_translate('partner');
 require_once('mods/categories/functions.php');

@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $axx_file['create']    = 4;
 $axx_file['list']      = 1;

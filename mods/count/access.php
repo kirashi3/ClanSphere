@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $axx_file['online']     = 1;
 $axx_file['stats']     = 1;

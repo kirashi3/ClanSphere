@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name'] = 'Error';
 $cs_lang['mod_text'] = 'Parsing of human-readable error messages';

@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']  = 'Banner';
 $cs_lang['mod_text']  = 'Bild-Verweise auf andere Webseiten';

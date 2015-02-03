@@ -1,6 +1,4 @@
 <?PHP
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']  = 'G&auml;stebuch';
 $cs_lang['mod_text']  = 'G&auml;stebucheintr&auml;ge erstellen und verwalten';

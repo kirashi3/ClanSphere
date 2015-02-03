@@ -1,6 +1,4 @@
-<?php  
-// ClanSphere 2010 - www.clansphere.net  
-// $Id$
+<?php
 
 $cs_lang['mod_name']  = 'Replays';
 $cs_lang['modtext']  = 'Saved replays of Clanwars';

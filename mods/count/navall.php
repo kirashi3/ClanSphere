@@ -1,6 +1,4 @@
-<?php 
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
+<?php
 
 $counte_archiv = cs_sql_select(__FILE__,'count_archiv','count_num',0,0,0,0);
 $archiv = 0;

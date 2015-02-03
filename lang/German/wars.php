@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']  = 'Clanwars';
 $cs_lang['modtext']  = 'Verwaltung von K&auml;mpfen gegen andere Clans';

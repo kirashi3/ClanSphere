@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name']  = 'Geschichte';
 $cs_lang['mod_text']  = 'Aktuelle History verwalten und erstellen';

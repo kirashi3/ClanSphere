@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net 
-// $Id$
 
 $cs_lang['mod_name']     = 'Karten';
 $cs_lang['modtext'] = 'Anlegen und Verwalten von Spielorten';

@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang = cs_translate('contact');
 $cs_get = cs_get('id');

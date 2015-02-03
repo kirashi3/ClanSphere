@@ -1,7 +1,5 @@
-<?php  
-// ClanSphere 2010 - www.clansphere.net  
-// $Id$  
-  
+<?php
+
 $cs_lang['back'] = 'Zur&uuml;ck';
 $cs_lang['cancel'] = 'Abbrechen';
 $cs_lang['captcha_false']  = '- Der Sicherheitscode ist falsch oder abgelaufen';

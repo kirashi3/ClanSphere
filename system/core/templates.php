@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 function cs_revert_script_braces($hits) {
   $hits[3] = empty($hits[3]) ? '' : $hits[3];

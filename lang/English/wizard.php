@@ -1,4 +1,5 @@
 <?php
+
 $cs_lang['mod_name']  = 'Wizard';
 $cs_lang['mod_text']  = 'Helps you to optimize and have a look at the portal functions';
 $cs_lang['wizard']    = 'Wizard';

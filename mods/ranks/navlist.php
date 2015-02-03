@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang = cs_translate('ranks');
 $cs_option = cs_sql_option(__FILE__,'ranks');

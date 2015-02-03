@@ -1,4 +1,5 @@
 <?php
+
 $width = $_GET['width'];
 Header( "Content-type: image/gif");
     if($width > 100)

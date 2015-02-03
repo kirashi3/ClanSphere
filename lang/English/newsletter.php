@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 $cs_lang['mod_name'] = 'Newsletter';
 $cs_lang['mod_text'] = 'Administration of Newsletters';

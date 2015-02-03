@@ -1,4 +1,5 @@
 <?php
+
 $op_partner = cs_sql_option(__FILE__,'partner');
 
 $cells = 'partner_id, partner_rimg, partner_alt, partner_url';

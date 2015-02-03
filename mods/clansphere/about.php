@@ -1,6 +1,4 @@
 <?php
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
 
 // Please do NOT modify, rename or delete this file!
 // You MUST place a visible hyperlink to this file in your templates!

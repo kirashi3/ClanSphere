@@ -1,6 +1,4 @@
-<?PHP
-// ClanSphere 2010 - www.clansphere.net
-// $Id$
+<?php
 
 $cs_lang = cs_translate('gallery', 1);
 $cs_post = cs_post('id,cat_id,start');
