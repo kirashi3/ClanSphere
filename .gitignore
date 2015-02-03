@@ -1,16 +1,36 @@
+# Mac specific directory
+.DS_Store
+
+
+# Patches & SQLITE
 *.patch
 *.sqlite
+
+
+# IDE specific directories and files
 /.buildpath
-/.htaccess
 /.idea
 /.project
 /.settings
+
+
+# CodeKit and Sublime Text 2 project files
+config.codekit
+*.sublime-project
+*.sublime-workspace
+
+
+# Webserver specific configuration
+/.htaccess
 /lighttpd.conf
 /nginx.conf
+/web.config
+
+
+# CMS
 /setup.php
 /setup*.php
-/web.config
-/nbproject
+
 /uploads/cache/*.tmp
 /uploads/gallery/pics/*.jpg
 /uploads/gallery/thumbs/*.jpg
@@ -19,18 +39,3 @@
 /uploads/logs/actions/*.log
 /uploads/logs/errors/*.log
 /uploads/rss/*.xml
-/uploads/users/nopicture.*
-
-/templates/*
-/themes/*
-
-!/templates/base/
-!/templates/clansphere/
-!/templates/index.html
-
-!/themes/base/
-!/themes/clansphere/
-!/themes/custom/
-!/themes/.htaccess
-!/themes/index.html
-!/themes/web.config
