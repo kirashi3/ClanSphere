@@ -3,7 +3,13 @@
 // $Id$
 
 # Overwrite global settings by using the following array
-$cs_main = array('init_sql' => true, 'init_tpl' => false, 'def_mod' => 'ajax', 'def_action' => 'upload', 'xsrf_protection' => false);
+$cs_main = array(
+    'init_sql'        => true,
+    'init_tpl'        => false,
+    'def_mod'         => 'ajax',
+    'def_action'      => 'upload',
+    'xsrf_protection' => false
+);
 
 require_once 'system/core/functions.php';
 
