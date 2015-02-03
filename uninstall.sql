@@ -54,7 +54,6 @@ DROP TABLE {pre}_read;
 DROP TABLE {pre}_replays;
 DROP TABLE {pre}_rounds;
 DROP TABLE {pre}_rules;
-DROP TABLE {pre}_servers;
 DROP TABLE {pre}_shoutbox;
 DROP TABLE {pre}_squads;
 DROP TABLE {pre}_static;

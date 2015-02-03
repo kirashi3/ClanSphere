@@ -202,10 +202,6 @@
       <td class="leftc"><input type="checkbox" name="search" value="1" checked="checked" /></td>
     </tr>
     <tr>
-      <td class="leftb">{lang:servers}</td>
-      <td class="leftb"><input type="checkbox" name="servers" value="1" checked="checked" /></td>
-    </tr>
-    <tr>
       <td class="leftc">{lang:static}</td>
       <td class="leftc"><input type="checkbox" name="static" value="1" checked="checked" /></td>
     </tr>
