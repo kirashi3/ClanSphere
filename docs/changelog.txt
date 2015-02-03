@@ -1,6 +1,11 @@
 CHANGELOG
 --------------------------
 
+
+ClanSphere 2015 >> 2015-XX-XX
+___________________________________________________________
+
+
 ClanSphere 2011.4.5 >> 2014-12-09
 ___________________________________________________________
 
@@ -10,6 +15,7 @@ ___________________________________________________________
 -> Introduce a repository for languages (https://github.com/ClanSphere/Languages), with a Slovak Translation (thx to callus) (tom08)
 -> Fixed problem with directly removed new uploaded banner on edit if banner has same filetype as previous banner (tom08)
 -> IBAN field was too short, set length to 43 characters (tom08)
+
 
 ClanSphere 2011.4.4 R2 >> 2014-05-04
 ___________________________________________________________
@@ -1080,4 +1086,3 @@ ___________________________________________________________
 - /system/core/content.php: If timezone handling is available it will be set to 'UTC' (hajo)
 - /system/core/tools.php: Added _svn to the ignore list of cs_paths (duriel)
 - /mods/shoutbox/create.php: Added a check for already taken nicknames (duriel)
-
