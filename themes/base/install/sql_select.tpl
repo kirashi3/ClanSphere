@@ -186,10 +186,6 @@
       <td class="leftb"><input type="checkbox" name="partner" value="1" checked="checked" /></td>
     </tr>
     <tr>
-      <td class="leftc">{lang:quotes}</td>
-      <td class="leftc"><input type="checkbox" name="quotes" value="1" checked="checked" /></td>
-    </tr>
-    <tr>
       <td class="leftb">{lang:ranks}</td>
       <td class="leftb"><input type="checkbox" name="ranks" value="1" checked="checked" /></td>
     </tr>

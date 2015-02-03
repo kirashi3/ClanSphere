@@ -49,7 +49,6 @@ DROP TABLE {pre}_options;
 DROP TABLE {pre}_partner;
 DROP TABLE {pre}_pictures;
 DROP TABLE {pre}_players;
-DROP TABLE {pre}_quotes;
 DROP TABLE {pre}_ranks;
 DROP TABLE {pre}_read;
 DROP TABLE {pre}_replays;
