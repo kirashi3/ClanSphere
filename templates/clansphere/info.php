@@ -1,6 +1,6 @@
 <?php
 
-$mod_info['name']     = 'ClanSphere';
+$mod_info['name']     = 'ClanSphere 2015';
 $mod_info['version']  = $cs_main['version_name'];
 $mod_info['released'] = $cs_main['version_date'];
 $mod_info['creator']  = 'sgraewe';
