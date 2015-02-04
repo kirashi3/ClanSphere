@@ -1,8 +1,7 @@
-<table class="forum" cellpadding="0" cellspacing="{page:cellspacing}" style="width:{page:width}">
-  <tr>
-    {if:manage}<td class="centerb">{icon:view_text}{menu:manage}</td>{stop:manage}
-    {if:create}<td class="centerb">{icon:editpaste}{menu:create}</td>{stop:create}
-    {if:options}<td class="centerb">{icon:package_settings}{menu:options}</td>{stop:options}
-  </tr>
-</table>
-<br />
+<ul class="nav nav-pills nav-justified">
+    {if:manage}<li{menu:manage_active}>{menu:manage}</li>{stop:manage}
+    {if:create}<li{menu:create_active}>{menu:create}</li>{stop:create}
+    {if:options}<li{menu:options_active}>{menu:options}</li>{stop:options}
+</ul><!--END nav-pills-->
+
+<br>
