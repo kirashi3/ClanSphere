@@ -1,0 +1,36 @@
+//  ##BODY
+//  ------------------------------------------------------------
+body {
+    background-color: @body-background-color;
+    color: @font-color-base;
+    font-family: @font-family-base;
+}
+
+
+//  ##LINKS
+//  ------------------------------------------------------------
+a:link, a:visited {
+    outline: none !important;
+    text-decoration: none;
+    .transition(color .15s linear);
+}
+
+
+//  ##BUTTONS
+//  ------------------------------------------------------------
+button { outline: none !important; }
+
+
+//  ##SELECTIONS
+//  ------------------------------------------------------------
+::-moz-selection {
+    background: @project-color;
+    color: @color-white;
+    text-shadow: none;
+}
+
+::selection {
+    background: @project-color;
+    color: @color-white;
+    text-shadow: none;
+}

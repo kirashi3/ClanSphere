@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+
+        <title>{func:title}</title>
+        <meta charset="{func:charset}">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+        {clansphere:navmeta}
+
+        {func:stylesheet}
+
+        <link rel="stylesheet" href="assets/css/main.css">
+
+    </head>
+
+
+    <body>
+
+        <nav class="navbar navbar-inverse navbar-static-top" id="navigation" role="navigation">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <i class="fa fa-bars"></i>
+                    </button><!--END navbar-toogle-->
+
+                    <a class="navbar-brand" href="{url:news_recent}">
+                        ClanSphere
+                    </a><!--END navbar-brand-->
+                </div><!--END navbar-header-->
+
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="navbar-nav nav">
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                Main
+                                <i class="fa fa-caret-down fa-fw"></i>
+                            </a>
+
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{url:news_recent}">News</a></li>
+                                <li><a href="{url:gbook}">Gbook</a></li>
+                                <li><a href="{url:board}">Board</a></li>
+                                <li><a href="{url:search}">Search</a></li>
+                                <li><a href="{url:gallery}">Gallery</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                About
+                                <i class="fa fa-caret-down fa-fw"></i>
+                            </a>
+
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{url:members_teams}">Teams</a></li>
+                                <li><a href="{url:members_list}">Members</a></li>
+                                <li><a href="{url:wars}">Clanwars</a></li>
+                                <li><a href="{url:awards}">Awards</a></li>
+                                <li><a href="{url:history}">History</a></li>
+                                <li><a href="{url:rules}">Rules</a></li>
+                                <li><a href="{url:links_sponsors}">Sponsors</a></li>
+                                <li><a href="{url:games}">Games</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                Features
+                                <i class="fa fa-caret-down fa-fw"></i>
+                            </a>
+
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{url:events_agenda}">Events</a></li>
+                                <li><a href="{url:users}">Community</a></li>
+                                <li><a href="{url:files}">Downloads</a></li>
+                                <li><a href="{url:replays}">Replays</a></li>
+                                <li><a href="{url:links}">Links</a></li>
+                                <li><a href="{url:faq}">Faq</a></li>
+                                <li><a href="{url:articles}">Articles</a></li>
+                                <li><a href="{url:gallery}">Gallery</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                Contact
+                                <i class="fa fa-caret-down fa-fw"></i>
+                            </a>
+
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{url:joinus_new}">Joinus</a></li>
+                                <li><a href="{url:fightus_new}">Fightus</a></li>
+                                <li><a href="{url:contact_mail}">Mailus</a></li>
+                                <li><a href="{url:contact_imprint}">Imprint</a></li>
+                                <li><a href="{url:clansphere_about}">Scriptinfo</a></li>
+                            </ul>
+                        </li>
+                    </ul><!--END navbar-nav-->
+                </div><!--END navbar-collapse-->
+
+            </div><!--END navigation container-->
+        </nav><!--END navigation-->
+
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-8" id="content">
+
+                    {func:show}
+
+                </div><!--END content-->
+
+
+                <aside class="col-md-4" id="sidebar">
+
+                    
+
+                </aside><!--END sidebar-->
+
+            </div><!--END main container row-->
+        </div><!--END main container-->
+
+
+        <!-- JAVASCRIPTS
+        ================================================== -->
+        {func:javascript}
+        <script src="assets/js/functions.js"></script>
+
+    </body>
+</html>
