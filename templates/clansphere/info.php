@@ -7,4 +7,3 @@ $mod_info['creator']  = 'Seron';
 $mod_info['team']     = 'Seron';
 $mod_info['url']      = 'http://www.fx-interfaces.com';
 $mod_info['text']     = 'Default Template';
-$mod_info['themes']   = 'clansphere';
