@@ -1,1 +1,3 @@
-<div id="{msg:id}"><div>{msg:icon} {msg:text}</div></div>
+<div class="alert alert-success text-center" role="alert">
+    <strong>{msg:text}</strong>
+</div><!--END alert-->
