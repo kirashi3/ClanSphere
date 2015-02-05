@@ -392,11 +392,11 @@ function cs_pages($mod, $action, $records, $start, $where = 0, $sort = 0, $limit
   while($maxpages > 0) {
     $run++;
     if($pages > 9 AND $maxpages == 6 AND $actual > 5) {
-      $result .= ' ... ';
+      $result .= '<li class="disabled">' . '<span>' . ' ... ' . '</span>' . '</li>';
       $run = $actual > $pages - 4 ? $pages - 5 : $actual - 1;
     }
     if($pages > 9 AND $maxpages == 3 AND ($actual + 4) < $pages) {
-      $result .= ' ... ';
+      $result .= '<li class="disabled">' . '<span>' . ' ... ' . '</span>' . '</li>';
       $run = $pages - 2;
     }
     if($run == $actual AND empty($small)) {
