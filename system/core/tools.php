@@ -386,7 +386,7 @@ function cs_pages($mod, $action, $records, $start, $where = 0, $sort = 0, $limit
   $last = $actual <= 2 ? 0 : $start - $limit;
   $next = $actual >= $pages ? ($pages - 1) * $limit : $start + $limit;
   $more = 'start=' . $last . $add_where . $add_sort;
-  $result = (empty($small) AND $actual != 1) ? '<div class="text-center">' . '<ul class="pagination">' . '<li>' . cs_link('<i class="fa fa-angle-double-left"></i>',$mod,$action,$more) . '</li>': '<div class="text-center">' . '<ul class="pagination">' . '<li class="disabled">' . '<span>' . '<i class="fa fa-angle-double-left"></i>' . '</span>' . '</li>';
+  $result = '<div class="text-center">' . '<ul class="pagination">' . ((empty($small) AND $actual != 1) ? '<li>' . cs_link('<i class="fa fa-angle-double-left"></i>',$mod,$action,$more) . '</li>' : '<li class="disabled">' . '<span>' . '<i class="fa fa-angle-double-left"></i>' . '</span>' . '</li>');
 
   $run = 0;
   while($maxpages > 0) {
@@ -409,7 +409,7 @@ function cs_pages($mod, $action, $records, $start, $where = 0, $sort = 0, $limit
     $maxpages--;
   }
   $more = 'start=' . $next . $add_where . $add_sort;
-  $result .= (empty($small) AND $actual != $pages) ? '<li>' . cs_link('<i class="fa fa-angle-double-right"></i>',$mod,$action,$more) . '</li>' . '</ul>' . '</div>': '<li class="disabled">' . '<span>' . '<i class="fa fa-angle-double-right"></i>' . '</span>' . '</li>' . '</ul>' . '</div>';
+  $result .= ((empty($small) AND $actual != $pages) ? '<li>' . cs_link('<i class="fa fa-angle-double-right"></i>',$mod,$action,$more) . '</li>' : '<li class="disabled">' . '<span>' . '<i class="fa fa-angle-double-right"></i>' . '</span>' . '</li>') . '</ul>' . '</div>';
 
   $result = $result;
   return $result;
