@@ -255,9 +255,15 @@ function cs_abcode_clip($matches) {
   static $clip_id;
   $clip_id++;
 
-  $var = '<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-' . $clip_id . '" aria-expanded="false" aria-controls="collapse-' . $clip_id . '"><i class="fa fa-paperclip fa-fw"></i> ' . $matches[1] . ' ';
+  $var = '<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-' . $clip_id . '" aria-expanded="false" aria-controls="collapse-' . $clip_id . '">';
+  $var .= '<i class="fa fa-paperclip fa-fw"></i> ';
+  $var .= $matches[1];
   $var .= '</button>';
-  $var .= '<div class="collapse" id="collapse-' . $clip_id . '"><div class="well" style="margin: 5px 0 0 !important;">' . $matches[2] . '</div></div>';
+  $var .= '<div class="collapse" id="collapse-' . $clip_id . '">';
+  $var .= '<div class="well" style="margin: 5px 0 0 !important;">';
+  $var .= $matches[2];
+  $var .= '</div>';
+  $var .= '</div>';
   return $var;
 }
 
