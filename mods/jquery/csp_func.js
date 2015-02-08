@@ -1,25 +1,3 @@
-$(function(){
-
-  $(".clip").live('click', function () { 
-    $(this).children('img').toggle();
-    $(this).next('div').slideToggle("slow");
-    return false;
-  }).next('div').hide();
-
-  $(document).bind('csAjaxLoad', function(e,ele) {
-    $(ele).find('.clip').next('div').hide();
-  });
-  
-  $(".visible").live('click', function () { 
-    $(this).prev('div').toggle(function() {
-       $(this).css('visibility', 'hidden');
-     }, function() {
-       $(this).css('visibility', 'visibile');
-     });
-  });
-
-});
-
 function passwordcheck(pass) {
 
   var password_numbers = '0';

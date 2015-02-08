@@ -255,11 +255,9 @@ function cs_abcode_clip($matches) {
   static $clip_id;
   $clip_id++;
 
-  $var = '<a class="clip" href="#">' . $matches[1] . ' ';
-  $var .= cs_html_img('symbols/clansphere/plus.gif',0,0,0,'+');
-  $var .= cs_html_img('symbols/clansphere/minus.gif',0,0,'style="display:none"','-');
-  $var .= '</a>';
-  $var .= '<div>' . $matches[2] . '</div>';
+  $var = '<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-' . $clip_id . '" aria-expanded="false" aria-controls="collapse-' . $clip_id . '"><i class="fa fa-paperclip fa-fw"></i> ' . $matches[1] . ' ';
+  $var .= '</button>';
+  $var .= '<div class="collapse" id="collapse-' . $clip_id . '"><div class="well" style="margin: 5px 0 0 !important;">' . $matches[2] . '</div></div>';
   return $var;
 }
 
