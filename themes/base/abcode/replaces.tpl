@@ -1,4 +1,4 @@
-<div class="quote"><strong>{var:1} : </strong>
+<blockquote class="quote"><small>{var:1} : </small>
 <blockquote class="quote"><p> 
 </p></blockquote>
 
