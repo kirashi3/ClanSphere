@@ -255,7 +255,7 @@ function cs_abcode_clip($matches) {
   static $clip_id;
   $clip_id++;
 
-  $var = '<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse-' . $clip_id . '" aria-expanded="false" aria-controls="collapse-' . $clip_id . '">';
+  $var = '<button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapse-' . $clip_id . '" aria-expanded="false" aria-controls="collapse-' . $clip_id . '">';
   $var .= '<i class="fa fa-paperclip fa-fw"></i> ';
   $var .= $matches[1];
   $var .= '</button>';
