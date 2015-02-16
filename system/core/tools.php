@@ -220,9 +220,9 @@ function cs_dateselect($name,$mode,$time,$year_start = 0)
 {
 
     global $com_lang;
-    $data = array();
+    $data                 = array();
     $data['date']['name'] = $name;
-    $data['if']['ampm'] = 0;
+    $data['if']['ampm']   = 0;
 
     $real_start = $mode == 'unix' ? 1970 : 1950;
     $year_start = empty($year_start) ? $real_start : $year_start;
