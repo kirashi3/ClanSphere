@@ -8,3 +8,49 @@ blockquote.quote {
         content: '';
     }
 }
+
+
+//  ##PANEL-TITLE
+.panel-title {
+    position: relative;
+
+//  ##PANEL-TITLE SMALL
+    > small {
+        position: absolute;
+        right: 0;
+        top:3px;
+    }
+}
+
+
+//  ##GRID
+.grid {
+    padding-bottom: 0;
+
+    //  ##GRID COL
+    .col-md-3 {
+        margin-bottom: @grid-link-margin;
+
+        //  ##GRID COL LINK
+        > a {
+            border: @grid-link-border;
+            border-radius: 2px;
+            color: @grid-link-color;
+            display: block;
+            padding: @grid-link-padding;
+            text-align: center;
+            text-shadow: 0 1px 0 @color-white;
+            .transition(all .15s linear);
+
+            //  ##GRID COL LINK IMAGE
+            > img { margin-bottom: @grid-image-margin; }
+
+            //  ##GRID COL LINK :HOVER
+            &:hover {
+                background-color: @grid-link-hover-bg;
+                border: @grid-link-hover-border;
+                color: @grid-link-hover-color;
+            }
+        }
+    }
+}

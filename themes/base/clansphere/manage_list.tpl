@@ -1,26 +1,24 @@
-<table class="forum" cellpadding="0" cellspacing="{page:cellspacing}" style="width:{page:width}">
-  <tr>
-    <td class="headb" colspan="2"> {head:mod} - {head:action} </td>
-  </tr>
-  <tr>
-    <td class="leftb"> {head:topline} </td>
-    <td class="leftb"> {lang:total}: {head:total} </td>
-  </tr>
-</table>
-<br />
 {head:message}
 
-<table class="forum" cellpadding="0" cellspacing="{page:cellspacing}" style="width:{page:width}">
-  <tr>
-    <td class="centerc" style="text-align: center">
+<div class="panel panel-default">
+    <header class="panel-heading">
+        <h3 class="panel-title">
+            {head:mod} - {head:action}
+
+            <small>{lang:total}: {head:total}</small>
+        </h3><!--END panel-title-->
+    </header><!--END panel-heading-->
+
+    <section class="panel-body grid">
+
         {loop:content}
-        <div style="display: inline-block; margin: 0; padding: 0">
-          <div class="manage" style="height: 60px; overflow: hidden; width: 110px">
-          <a href="{content:link_1}" style="display: block; text-decoration: none">
-          {content:img_1}<br style="margin-bottom:4px" />{content:txt_1}</a>
-          </div>
-        </div>
-       {stop:content}
-    </td>
-  </tr>
-</table>
+        <div class="col-md-3">
+            <a href="{content:link_1}" title="{content:txt_1}">
+                {content:img_1} <br>
+                {content:txt_1}
+            </a>
+        </div><!--END col-md-2-->
+        {stop:content}
+
+    </section><!--END panel-body-->
+</div><!--END panel-->
