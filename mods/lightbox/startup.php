@@ -11,6 +11,5 @@ if(!empty($account['access_lightbox'])) {
     cs_scriptload('lightbox', 'stylesheet', 'css/slimbox2.css');
 
     # Slimbox requires jQuery - loaded in jQuery mod startup.php file
-    cs_scriptload('lightbox', 'javascript', 'js/slimbox2.js');
   }
 }
