@@ -45,10 +45,20 @@ if (!empty($cs_post['submit']))
 
 $data     = array();
 $selected = ' selected="selected"';
-if (!empty($errors)) $data['lang']['errors_here'] =
+
+if (!empty($errors))
+{
+
+    $data['lang']['errors_here'] =
         '<div class="alert alert-danger text-center" role="alert">' .
         '<strong>' . $errors . '</strong>' .
         '</div><!--END alert-->';
+
+} else {
+
+    $data['lang']['errors_here'] = '';
+
+}
 
 $data['options']['ajax_reload'] = $cs_main['ajax_reload'];
 
