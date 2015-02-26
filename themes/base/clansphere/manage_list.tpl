@@ -12,7 +12,7 @@
     <section class="panel-body grid">
 
         {loop:content}
-        <div class="col-md-3">
+        <div class="col-md-3 col-xs-6">
             <a href="{content:link_1}" title="{content:txt_1}">
                 {content:img_1} <br>
                 {content:txt_1}
