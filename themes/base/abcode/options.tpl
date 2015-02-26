@@ -88,7 +88,7 @@
 
             <div class="checkbox">
                 <label>
-                    <input type="checkbox" name="def_abcode" value="1"{checked:def_abcode}/>
+                    <input type="checkbox" name="def_abcode" value="1" {checked:def_abcode}>
                     {lang:def_abcode}
                 </label>
             </div><!--END checkbox-->

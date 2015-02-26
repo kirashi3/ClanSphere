@@ -54,11 +54,11 @@
                 {abcode:pic}
             </p>
 
-            <input type="file" class="form-control" name="picture" value="" />
+            <input type="file" class="form-control" name="picture" value="">
         </div><!--END form-group-->
 
-        <input type="hidden" name="abcode_file" value="{abcode:file}" />
-        <input type="hidden" name="id" value="{abcode:id}" />
+        <input type="hidden" name="abcode_file" value="{abcode:file}">
+        <input type="hidden" name="id" value="{abcode:id}">
         <button type="submit" name="submit" class="btn btn-primary">{lang:edit}</button>
 
     </div><!--END panel-body-->

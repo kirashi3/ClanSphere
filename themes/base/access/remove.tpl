@@ -10,7 +10,7 @@
 
         <div class="well well-lg text-center">{lang:body}</div>
 
-        <input type="hidden" name="id" value="{access:id}" />
+        <input type="hidden" name="id" value="{access:id}">
 
         <div class="row">
             <div class="col-md-6">

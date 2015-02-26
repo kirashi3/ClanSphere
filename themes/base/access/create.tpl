@@ -42,7 +42,7 @@
     </div><!--END table-responsive-->
 
     <div class="panel-body">
-        <input type="hidden" name="id" value="{access2:id}" />
+        <input type="hidden" name="id" value="{access2:id}">
         <button type="submit" name="submit" class="btn btn-primary">{lang:create}</button>
     </div><!--END panel-body-->
 </div><!--END panel-->

@@ -4,6 +4,7 @@ $cs_lang = cs_translate('access');
 
 $cs_access = cs_sql_select(__FILE__,'access','*',"access_id = '" . $account['access_id'] . "'");
 unset($cs_access['access_id']);
+
 $data      = array();
 $run       = 0;
 

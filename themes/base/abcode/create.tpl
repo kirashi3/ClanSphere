@@ -50,7 +50,7 @@
             <label>{lang:pic_up}</label>
             <i class="fa fa-question-circle form-help" data-toggle="tooltip" data-placement="left" title="{abcode:clip}"></i>
 
-            <input type="file" class="form-control" name="picture" value="" />
+            <input type="file" class="form-control" name="picture" value="">
         </div><!--END form-group-->
 
         <button type="submit" name="submit" class="btn btn-primary">{lang:create}</button>
