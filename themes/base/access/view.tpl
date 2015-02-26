@@ -1,25 +1,30 @@
-<table class="forum" cellpadding="0" cellspacing="{page:cellspacing}" style="width:{page:width}">
-  <tr>
-    <td class="headb">{lang:mod_name} - {lang:head_view}</td>
-  </tr>
-  <tr>
-    <td class="leftb">{lang:body_view}</td>
-  </tr>
-</table>
-<br />
-<table class="forum" cellpadding="0" cellspacing="{page:cellspacing}" style="width:{page:width}">
-  <tr>
-    <td class="leftc">{icon:access} {lang:name}</td>
-    <td class="leftb">{lang:name}</td>
-  </tr>
-  <tr>
-    <td class="leftc">{icon:package_system} ClanSphere</td>
-    <td class="leftb">{lang:clansphere} </td>
-  </tr>
-  {loop:access}
-  <tr>
-    <td class="leftc">{access:icon} {access:name}</td>
-    <td class="leftb">{access:access}</td>
-  </tr>
-  {stop:access}
-</table>
+<div class="panel panel-default">
+    <header class="panel-heading">
+        <h3 class="panel-title">
+            {lang:mod_name} - {lang:head_view}
+        </h3><!--END panel-title-->
+    </header><!--END panel-heading-->
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th colspan="2">{lang:name}</th>
+                </tr>
+            </thead><!--END thead-->
+
+            <tbody>
+                <tr>
+                    <th>{icon:package_system} ClanSphere</th>
+                    <td>{lang:clansphere}</td>
+                </tr>
+                {loop:access}
+                <tr>
+                    <th>{access:icon} {access:name}</th>
+                    <td>{access:access}</td>
+                </tr>
+                {stop:access}
+            </tbody><!--END table tbody-->
+        </table><!--END table-->
+    </div><!--END table-responsive-->
+</div><!--END panel-->
