@@ -145,7 +145,7 @@ function cs_html_select($func, $name = '', $more = 0)
     if (!empty($func))
     {
 
-        $var = "<select name=\"" . $name . "\" class=\"form\"";
+        $var = "<select name=\"" . $name . "\" class=\"form-control\"";
 
         if (!empty($more))
         {

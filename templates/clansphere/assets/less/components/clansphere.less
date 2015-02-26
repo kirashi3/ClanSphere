@@ -10,15 +10,27 @@ blockquote.quote {
 }
 
 
-//  ##PANEL-TITLE
-.panel-title {
-    position: relative;
+//  ##PANEL
+.panel {
 
-//  ##PANEL-TITLE SMALL
-    > small {
-        position: absolute;
-        right: 0;
-        top:3px;
+
+    //  ##PANEL-TITLE
+    .panel-title {
+        position: relative;
+        text-shadow: 0 1px 0 @color-white;
+
+    //  ##PANEL-TITLE SMALL
+        > small {
+            position: absolute;
+            right: 0;
+            top:3px;
+        }
+    }
+
+    //  ##PANEL-BODY HR
+    .panel-body > hr {
+        margin: 0;
+        margin-bottom: 25px;
     }
 }
 
@@ -52,5 +64,23 @@ blockquote.quote {
                 color: @grid-link-hover-color;
             }
         }
+    }
+}
+
+
+//  ##PAGINATION
+.pagination { margin: @pagination-margin; }
+
+
+//  ##FORM-GROUP
+.form-group {
+    margin-bottom: @form-group-margin;
+
+    //  ##FORM-GROUP FORM-HELP
+    .form-help {
+        color: @form-help-color;
+        cursor: help;
+        float: right;
+        font-size: 1.25em;
     }
 }

@@ -6575,13 +6575,18 @@ blockquote.quote {
 blockquote.quote small:before {
   content: '';
 }
-.panel-title {
+.panel .panel-title {
   position: relative;
+  text-shadow: 0 1px 0 #ffffff;
 }
-.panel-title > small {
+.panel .panel-title > small {
   position: absolute;
   right: 0;
   top: 3px;
+}
+.panel .panel-body > hr {
+  margin: 0;
+  margin-bottom: 25px;
 }
 .grid {
   padding-bottom: 0;
@@ -6608,4 +6613,16 @@ blockquote.quote small:before {
   background-color: rgba(0, 0, 0, 0.025);
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: #be1e2d;
+}
+.pagination {
+  margin: 0;
+}
+.form-group {
+  margin-bottom: 25px;
+}
+.form-group .form-help {
+  color: #777777;
+  cursor: help;
+  float: right;
+  font-size: 1.25em;
 }
