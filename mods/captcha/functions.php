@@ -17,8 +17,19 @@ function cs_captchashow($mini = 0)
   {
     require_once('recaptchav2_autoload.php');
     $lang= $com_lang['short'];
-    return '<div class="g-recaptcha" data-sitekey="'.$captcha_option['options']['recaptcha_public_key'].'"></div>
+
+/*====================================================================================================================
+  ORIGINAL CODE - public key
+  ====================================================================================================================
+   return '<div class="g-recaptcha" data-sitekey="'.$captcha_option['options']['recaptcha_public_key'].'"></div>
             <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl='.$lang.'"></script>';
+  ================================================================================================================= */
+    global $recaptcha_site_key; $recaptcha_site_key = "PUBLIC_KEY";
+    return '<div class="g-recaptcha" data-sitekey="'.$recaptcha_site_key.'"></div>
+            <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl='.$lang.'"></script>';
+/*====================================================================================================================
+  END MODIFICATIONS
+  ================================================================================================================= */
   }
   elseif(check_captcha_methode() == 'recaptcha')
   {
@@ -43,7 +54,16 @@ function cs_captchaverify($mini = 0)
   {
     require_once('recaptchav2_autoload.php');
     if (isset($_POST["g-recaptcha-response"])) {
-      $recaptcha = new \ReCaptcha\ReCaptcha($captcha_option['options']['recaptcha_private_key']);
+/*====================================================================================================================
+  ORIGINAL CODE - private key
+  ====================================================================================================================
+  $recaptcha = new \ReCaptcha\ReCaptcha($captcha_option['options']['recaptcha_private_key']);
+  ================================================================================================================= */
+      global $recaptcha_private_key; $recaptcha_private_key = "PRIVATE_KEY";
+      $recaptcha = new \ReCaptcha\ReCaptcha($recaptcha_private_key);
+/*====================================================================================================================
+  END MODIFICATIONS
+  ================================================================================================================= */
       // If file_get_contents() is locked down on your PHP installation to disallow
       // its use with URLs, then you can use the alternative request method instead.
       // This makes use of fsockopen() instead.
@@ -84,6 +104,9 @@ function cs_captchaverify($mini = 0)
 function check_captcha_methode()
 {
   global $captcha_option;
+/*====================================================================================================================
+  ORIGINAL CODE - private key
+  ====================================================================================================================
   if($captcha_option['options']['method'] == 'recaptchav2' AND !empty($captcha_option['options']['recaptcha_private_key']) AND !empty($captcha_option['options']['recaptcha_public_key']))
   {
     return 'recaptchav2';
@@ -96,4 +119,9 @@ function check_captcha_methode()
   {
     return 'standard';
   }
+  ================================================================================================================= */
+  return 'recaptchav2';
+/*====================================================================================================================
+  END MODIFICATIONS
+  ================================================================================================================= */
 }
