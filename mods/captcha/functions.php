@@ -2,6 +2,15 @@
 // ClanSphere 2010 - www.clansphere.net
 // $Id$
 
+/*====================================================================================================================
+  ADD CODE - public and private keys
+  ================================================================================================================= */
+global $recaptcha_site_key; $recaptcha_site_key = "PUBLIC_KEY";
+global $recaptcha_private_key; $recaptcha_private_key = "PRIVATE_KEY";
+/*====================================================================================================================
+  END MODIFICATIONS
+  ================================================================================================================= */
+
 global $available_captchas, $captcha_option;
 $captcha_option['options'] = cs_sql_option(__FILE__,'captcha');
 $available_captchas = array(
@@ -24,7 +33,7 @@ function cs_captchashow($mini = 0)
    return '<div class="g-recaptcha" data-sitekey="'.$captcha_option['options']['recaptcha_public_key'].'"></div>
             <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl='.$lang.'"></script>';
   ================================================================================================================= */
-    global $recaptcha_site_key; $recaptcha_site_key = "PUBLIC_KEY";
+    global $recaptcha_site_key;
     return '<div class="g-recaptcha" data-sitekey="'.$recaptcha_site_key.'"></div>
             <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl='.$lang.'"></script>';
 /*====================================================================================================================
@@ -59,7 +68,7 @@ function cs_captchaverify($mini = 0)
   ====================================================================================================================
   $recaptcha = new \ReCaptcha\ReCaptcha($captcha_option['options']['recaptcha_private_key']);
   ================================================================================================================= */
-      global $recaptcha_private_key; $recaptcha_private_key = "PRIVATE_KEY";
+      global $recaptcha_private_key;
       $recaptcha = new \ReCaptcha\ReCaptcha($recaptcha_private_key);
 /*====================================================================================================================
   END MODIFICATIONS
